@@ -1,7 +1,7 @@
 **About**
 
 Rule-driven prompt framework for controlled tutoring: scoped knowledge hierarchy, drift-resistant grading, multi-mode delivery (Q&A, simulation, 
-synthesis), internal state tracking, and serialized context export for session persistence.
+synthesis) with internal state tracking using Google Drive to save user data across chats.
 
 While the prompt is designed to be capable of handling mutliple subjects in the same context file, it is reccomended to separate subject context 
 files in order to minimize drift and keep the context window managable. The optimal structutre would be to create a folder or project for studying 
